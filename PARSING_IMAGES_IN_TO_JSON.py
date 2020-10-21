@@ -31,7 +31,7 @@ data['Image_Encoded_format'] = base64.encodebytes(image).decode("utf-8")
 #we will create the obj of json dump 
 obj = json.dumps(data,indent=4)
 #using open we will write the file
-with open("/home/anubhav/SHARMAJI/IMG_PROCESS/rett2.json",'w') as q:
+with open("/home/anubhav/IMG_PROCESS/rett2.json",'w') as q:
     q.write(obj)
 
 
